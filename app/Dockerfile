@@ -251,8 +251,6 @@ RUN mkdir --parents /tmp/php/src/${PHP_VERSION} \
          --enable-mbregex \
          --with-mcrypt \
          --with-mhash \
-         --with-mssql \
-         --with-mysql \
          --with-mysql-sock=/var/run/mysqld/mysqld.sock \
          --with-mysqli=/usr/bin/mysql_config \
          --enable-pcntl \
